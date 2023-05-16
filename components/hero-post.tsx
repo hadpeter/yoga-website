@@ -13,7 +13,7 @@ type Props = {
   slug: string
 }
 
-const HeroPost = ({
+const HomePage = ({
   title,
   coverImage,
   date,
@@ -50,4 +50,4 @@ const HeroPost = ({
   )
 }
 
-export default HeroPost
+export default HomePage

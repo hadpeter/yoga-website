@@ -1,3 +1,6 @@
+# Yoga Website
+This application hosts my yoga website which can be viewed [here](https://yoga-website-sigma.vercel.app/)
+
 # A statically generated blog example using Next.js, Markdown, and TypeScript
 
 This is the existing [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) plus TypeScript.

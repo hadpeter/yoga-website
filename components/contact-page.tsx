@@ -1,10 +1,6 @@
+import Icon from './icon'
 
-
-const excerpt = "I'm Hadley Peterson, a practicing yogi of 10 years. I primarily teach vinyasa, with training in vinyasa, \
-restorative, ashtanga, trauma informed, and prenatal yoga. I am also trained in pranayama, use of mudras, activation of bandhas, \
-meditation and the chakras.  \n I found yoga in Fall of 2013. Yoga has supported me through many phases of life and made me the \
-woman I am today. To pay it forward, I pursued a 200 hour training through Y7 Studio in Spring of 2023. Since then I aim to share my \
-teachings with those around me to help others find yoga"
+const excerpt = ""
 
 const ContactPage = () => {
   return (
@@ -12,10 +8,20 @@ const ContactPage = () => {
       <div className="md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28">
         <div>
           <h3 className="mb-4 text-4xl lg:text-5xl leading-tight">
-            About
+            Contact
           </h3>
-          <div className="mb-4 md:mb-0 text-lg">
-            Hadley Peterson, RYT 200 Hours
+          <div className="mb-4 text-lg flex items-center">
+            <Icon platform={"Instagram"} picture={"/assets/icons/instagram.png"} /> 
+            <a
+            href="https://www.instagram.com/yogi_hadley/"
+            className="hover:underline"
+            >
+            @yogi_hadley
+            </a>
+          </div>
+          <div className="mb-4 text-lg flex items-center">
+            <Icon platform={"Email"} picture={"/assets/icons/email.jpeg"} /> 
+            hirelandpeterson@gmail.com
           </div>
         </div>
         <div>

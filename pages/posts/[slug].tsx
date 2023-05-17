@@ -11,6 +11,7 @@ import Head from 'next/head'
 import { CMS_NAME } from '../../lib/constants'
 import markdownToHtml from '../../lib/markdownToHtml'
 import type PostType from '../../interfaces/post'
+import SignupButton from '../../components/signup-button'
 
 type Props = {
   post: PostType
@@ -42,8 +43,12 @@ export default function Post({ post, morePosts, preview }: Props) {
                 coverImage={post.coverImage}
                 date={post.date}
                 author={post.author}
+                slug={post.slug}
               />
               <PostBody content={post.content} />
+              {post.signupForm ? (
+                <SignupButton url={post.signupForm}></SignupButton>
+              ): <span/>}
             </article>
           </>
         )}
@@ -67,6 +72,7 @@ export async function getStaticProps({ params }: Params) {
     'content',
     'ogImage',
     'coverImage',
+    'signupForm',
   ])
   const content = await markdownToHtml(post.content || '')
 

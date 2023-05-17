@@ -5,7 +5,7 @@ import Image from 'next/image'
 type Props = {
   title: string
   src: string
-  slug?: string
+  slug: string
 }
 
 const CoverImage = ({ title, src, slug }: Props) => {

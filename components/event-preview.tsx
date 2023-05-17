@@ -1,8 +1,8 @@
 import Avatar from './avatar'
-import DateFormatter from './date-formatter'
 import CoverImage from './cover-image'
 import Link from 'next/link'
 import type Author from '../interfaces/author'
+import SignupButton from './signup-button'
 
 type Props = {
   key: string
@@ -12,6 +12,7 @@ type Props = {
   excerpt: string
   author: Author
   slug: string
+  signupForm: string
 }
 
 const EventPreview = ({
@@ -21,6 +22,7 @@ const EventPreview = ({
   excerpt,
   author,
   slug,
+  signupForm
 }: Props) => {
   return (
     <div>
@@ -30,7 +32,7 @@ const EventPreview = ({
       <h3 className="text-3xl mb-3 leading-snug">
         <Link
           as={`/posts/${slug}`}
-          href="/posts/[slug]"
+          href="/posts/"
           className="hover:underline"
         >
           {title}
@@ -41,6 +43,9 @@ const EventPreview = ({
       </div>
       <p className="text-lg leading-relaxed mb-4">{excerpt}</p>
       <Avatar name={author.name} picture={author.picture} />
+      {signupForm ? (
+        <SignupButton url={signupForm}></SignupButton>
+        ): <span/>}
     </div>
   )
 }

@@ -11,6 +11,7 @@ type PostType = {
     url: string
   }
   content: string
+  signupForm: string
 }
 
 export default PostType

@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <section>
       <div className="mb-8 md:mb-16">
-        <CoverImage title={"About"} src={"/../public/assets/pictures/home.JPEG"}/>
+        <CoverImage slug ="assets/pictures/home.JPEG" title={"About"} src={"/../public/assets/pictures/home.JPEG"}/>
       </div>
     </section>
   )

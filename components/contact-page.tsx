@@ -14,7 +14,7 @@ const ContactPage = () => {
             <Icon platform={"Instagram"} picture={"/assets/icons/instagram.png"} /> 
             <a
             href="https://www.instagram.com/yogi_hadley/"
-            className="hover:underline"
+            className="hover:underline color:blue"
             >
             @yogi_hadley
             </a>

@@ -21,7 +21,7 @@ const ContactPage = () => {
           </div>
           <div className="mb-4 text-lg flex items-center">
             <Icon platform={"Email"} picture={"/assets/icons/email.jpeg"} /> 
-            hirelandpeterson@gmail.com
+            yogihadley@gmail.com
           </div>
         </div>
         <div>

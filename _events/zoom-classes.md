@@ -1,11 +1,11 @@
 ---
-title: 'Weekly Donation Based Zoom Classes'
-excerpt: 'Held weekly 7:00-8:00 am Wednesday. Class is available to all yoga levels. '
+title: 'Weekly Zoom Class'
+excerpt: 'Donation based vinyasa style yoga class held every Wednesday evening, 8:00-9:00 pm. Class is available to all yoga levels.'
 coverImage: '/assets/events/zoom-event.JPEG'
 date: '2020-03-16T05:35:07.322Z'
 author:
   name: Hadley Peterson
-  picture: '/assets/pictures/profile.JPEG'
+  picture: '/assets/pictures/profile.jpeg'
 ogImage:
   url: '/assets/blog/dynamic-routing/cover.jpg'
 ---

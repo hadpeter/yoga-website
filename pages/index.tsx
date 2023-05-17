@@ -29,6 +29,7 @@ export default function Index({ allPosts }: Props) {
           <Intro />
           <HomePage/>
           <AboutPage/>
+          <EventsPage posts={morePosts}/>
           {/* <AboutPage/>
           <EventsPage/>
           <ContactPage/> */}

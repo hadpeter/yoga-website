@@ -1,11 +1,11 @@
 ---
-title: 'Learn How to Pre-render Pages Using Static Generation with Next.js'
+title: 'Yoga at McCaren Park'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
 coverImage: '/assets/blog/hello-world/cover.jpg'
-date: '2020-03-16T05:35:07.322Z'
+date: '2023-06-03T10:00:00.000'
 author:
-  name: Tim Neutkens
-  picture: '/assets/blog/authors/tim.jpeg'
+  name: Hadley Peterson
+  picture: '/assets/pictures/profile.JPEG'
 ogImage:
   url: '/assets/blog/hello-world/cover.jpg'
 ---

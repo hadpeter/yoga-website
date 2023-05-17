@@ -1,7 +1,7 @@
 ---
 title: 'Yoga in McCaren Park'
 excerpt: 'Donation based vinyasa style yoga class accessible to all levels. Please bring a yoga mat and waterbottle as they will not be provided.'
-coverImage: '/assets/events/foo.jpeg'
+coverImage: '/assets/events/mccaren-park.jpeg'
 date: 'Saturday June 6, 10:00-11:00 am EST'
 author:
   name: Hadley Peterson

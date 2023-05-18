@@ -2,7 +2,7 @@
 title: 'Yoga in McCarren Park'
 excerpt: 'Donation based vinyasa style yoga class accessible to all levels. Please bring a yoga mat and water bottle.'
 coverImage: '/assets/events/park-event.jpeg'
-date: 'Saturday June 6, 10:00-11:00 am EST'
+date: 'Saturday June 3, 10:00-11:00 am EST'
 slug: 'mccarren-park'
 signupForm: 'https://www.eventbrite.com/e/yoga-in-mccaren-park-tickets-638292208177'
 author:

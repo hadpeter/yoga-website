@@ -1,10 +1,10 @@
 ---
 title: 'Yoga in McCarren Park'
 excerpt: 'Donation based vinyasa style yoga class accessible to all levels. Please bring a yoga mat and water bottle.'
-coverImage: '/assets/events/park-event.jpeg'
-date: 'Saturday June 3, 10:00-11:00 am EST'
+coverImage: '/assets/events/mccarren624.jpg'
+date: 'Saturday June 24, 11:00am-12:00pm EST'
 slug: 'mccarren-park'
-signupForm: 'https://www.eventbrite.com/e/yoga-in-mccaren-park-tickets-638292208177'
+signupForm: 'https://www.eventbrite.com/e/yoga-in-mccarren-park-tickets-661454406937'
 author:
   name: Hadley Peterson
   picture: '/assets/pictures/profile.jpeg'

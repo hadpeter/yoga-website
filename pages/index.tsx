@@ -29,7 +29,7 @@ export default function Index({ allPosts }: Props) {
           <Intro />
           <HomePage/>
           <AboutPage/>
-          <EventsPage posts={morePosts}/>
+          {/* <EventsPage posts={morePosts}/> */}
           <ContactPage/>
           {/* {heroPost && (
             <HeroPost
